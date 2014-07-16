@@ -258,6 +258,10 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
   width:5%;
 }
 
+.modal-body{
+	padding:0px !important;
+}
+
 /********************************************************/
 /*                      bootstrap                           */
 /********************************************************/
@@ -266,34 +270,6 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
   padding-right: 0px;
   padding-left:0px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /***********************************************************/
 /*                   Theme: text shadows                   */
