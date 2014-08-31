@@ -6,23 +6,21 @@
 	<meta name="description" content="">
 	<meta name="author"      content="DJ Peluca (djpeluca.com)">
 	
-	<title>Yukoh</title>
+	<title>Yukoh! Films</title>
 
 	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
 	
-	<!-- Bootstrap itself -->
+	<!-- Bootstrap -->
 	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
 
 	<!-- Custom styles -->
 	<link rel="stylesheet" href="assets/css/yukoh.css">
     <?php
-     $bg = array('body1.jpg', 'body2.jpg', 'body3.jpg', 'body4.jpg', 'body5.jpg' ); // array of filenames 
-    $i = rand(0, count($bg)-1); // generate random number size of the array 
-    $selectedBg = "$bg[$i]"; // set variable equal to which random filename was chosen 
+    $i = rand(1, 35); // generate random number size of the array 
     ?>
     <style>
         html {
-	       background:#505D6E url(assets/images/<?php echo $selectedBg; ?>) no-repeat center center fixed; 
+	       background-image: url(assets/images/backgrounds/body<?php echo $i; ?>.jpg); 
         }
     </style>
 
@@ -31,7 +29,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Wire+One' rel='stylesheet' type='text/css'>
 </head>
 
-<!-- Coded by DJ Peluca -->
+<!-- Coded by @djpeluca -->
 <body class="theme-invert">
 
 <nav class="mainmenu">
@@ -49,43 +47,43 @@
 	</div>
 </nav>
 
+    <!-- Header Logo -->
+    <div class="container">
+    <div class="row">
+    <img class="logo" src="assets/images/yukoh-black.png" />
+    </div>
+    </div>
 
-<!-- Main (Home) section -->
+<!-- Main section -->
 <section class="section" id="head">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-3 col-sm-4 col-xs-6 col-sm-offset-2"><a title="Image 1" href="#"><img class="thumbnail img-responsive" src="http://placehold.it/600x350"></a></div>
-      <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 2" href="#"><img class="thumbnail img-responsive" src="http://placehold.it/600x350/992233"></a></div>
-      <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 3" href="#"><img class="thumbnail img-responsive" src="http://placehold.it/600x350/449955/FFF"></a></div>
-      <div class="col-lg-3 col-sm-4 col-xs-6 col-sm-offset-2"><a title="Image 4" href="#"><img class="thumbnail img-responsive" src="http://placehold.it/600x350/992233"></a></div>
-      <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 5" href="#"><img class="thumbnail img-responsive" src="http://placehold.it/600x350/2255EE"></a></div>
-      <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 6" href="#"><img class="thumbnail img-responsive" src="http://placehold.it/600x350"></a></div>
-      <div class="col-lg-3 col-sm-4 col-xs-6 col-sm-offset-2"><a title="Image 8" href="#"><img class="thumbnail img-responsive" src="http://placehold.it/600x350/777"></a></div>
-      <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 9" href="#"><img class="thumbnail img-responsive" src="http://placehold.it/600x350/992233"></a></div>
-      <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 10" href="#"><img class="thumbnail img-responsive" src="http://placehold.it/600x350/EEE"></a></div>
-      <div class="col-lg-3 col-sm-4 col-xs-6 col-sm-offset-2"><a title="Image 11" href="#"><img class="thumbnail img-responsive" src="http://placehold.it/600x350/449955/FFF"></a></div>
-      <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 12" href="#"><img class="thumbnail img-responsive" src="http://placehold.it/600x350/DDD"></a></div>
-      <div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 13" href="#"><img class="thumbnail img-responsive" src="http://placehold.it/600x350/992233"></a></div>
+			<div class="col-lg-3 col-sm-4 col-xs-6"><a class="videothumb" title="Image 1" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/104191747.jpg"></a></div>
+			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 2" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/11168959.jpg"></a></div>
+			<div class="col-lg-3 col-sm-4 col-xs-6" ><a title="Image 3" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/78796323.jpg"></a></div>
+			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 4" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/28521836.jpg"></a></div>
+			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 5" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/22158107.jpg"></a></div>
+			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 6" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/36234305.jpg"></a></div>
+			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 8" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/42131596.jpg"></a></div>
+			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 9" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/42674191.jpg"></a></div>
+			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 10" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/48704395.jpg"></a></div>
+			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 11" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/49933877.jpg"></a></div>
+			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 12" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/65479167.jpg"></a></div>
+			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 13" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/25051839.jpg"></a></div>
 		</div> <!-- /row -->
-	
 	</div>
+	
 	<div class="modal" id="myModal" role="dialog">
 		  <div class="modal-dialog">
 		  <div class="modal-content">
-			
 			<div class="modal-body">
 				<div id="modalCarousel" class="carousel">
-		 
 				  <div class="carousel-inner">
-				   
 				  </div>
-				  
 				  <a class="carousel-control left" href="#modalCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
 				  <a class="carousel-control right" href="#modalCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
-				  
 				</div>
 			</div>
-			
 		   </div>
 		  </div>
 	</div>
