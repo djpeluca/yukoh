@@ -58,18 +58,18 @@
 <section class="section" id="head">
 	<div class="container">
 		<div class="row">
-			<div class="col-lg-3 col-sm-4 col-xs-6"><a class="videothumb" title="Image 1" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/104191747.jpg"></a></div>
-			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 2" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/11168959.jpg"></a></div>
-			<div class="col-lg-3 col-sm-4 col-xs-6" ><a title="Image 3" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/78796323.jpg"></a></div>
-			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 4" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/28521836.jpg"></a></div>
-			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 5" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/22158107.jpg"></a></div>
-			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 6" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/36234305.jpg"></a></div>
-			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 8" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/42131596.jpg"></a></div>
-			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 9" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/42674191.jpg"></a></div>
-			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 10" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/48704395.jpg"></a></div>
-			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 11" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/49933877.jpg"></a></div>
-			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 12" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/65479167.jpg"></a></div>
-			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="Image 13" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/25051839.jpg"></a></div>
+			<div class="col-lg-3 col-sm-4 col-xs-6"><a class="videothumb" title="Image 1" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/104191747.jpg" id="104191747" title="yukoh! films"></a></div>
+			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="yukoh! films" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/11168959.jpg" id="11168959" title="yukoh! films"></a></div>
+			<div class="col-lg-3 col-sm-4 col-xs-6" ><a title="yukoh! films" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/78796323.jpg" id="78796323" title="yukoh! films"></a></div>
+			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="yukoh! films" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/28521836.jpg" id="28521836" title="yukoh! films"></a></div>
+			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="yukoh! films" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/22158107.jpg" id="22158107" title="yukoh! films"></a></div>
+			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="yukoh! films" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/36234305.jpg" id="36234305" title="yukoh! films"></a></div>
+			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="yukoh! films" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/42131596.jpg" id="42131596" title="yukoh! films"></a></div>
+			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="yukoh! films" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/42674191.jpg" id="42674191" title="yukoh! films"></a></div>
+			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="yukoh! films" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/48704395.jpg" id="48704395" title="yukoh! films"></a></div>
+			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="yukoh! films" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/49933877.jpg" id="49933877" title="yukoh! films"></a></div>
+			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="yukoh! films" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/65479167.jpg" id="65479167" title="yukoh! films"></a></div>
+			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="yukoh! films" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/25051839.jpg" id="25051839" title="yukoh! films"></a></div>
 		</div> <!-- /row -->
 	</div>
 	
@@ -197,48 +197,49 @@
 
 <script type='text/javascript'>
         
-        $(document).ready(function() {
+$(document).ready(function() {
         
-            /* copy loaded thumbnails into carousel */
-$('.row .thumbnail').on('load', function() {
-  
-}).each(function(i) {
-  if(this.complete) {
-  	var item = $('<div class="item"></div>');
-    var itemDiv = $(this).parents('div');
-    var title = $(this).parent('a').attr("title");
-    
-    item.attr("title",title);
-  	$(itemDiv.html()).appendTo(item);
-  	item.appendTo('.carousel-inner'); 
-    if (i==0){ // set first item active
-     item.addClass('active');
-    }
-  }
+    /* copy loaded thumbnails into carousel */
+    $('.row .thumbnail').on('load', function() {
+
+    }).each(function(i) {
+      if(this.complete) {
+        var item = $('<div class="item"></div>');
+        var itemDiv = $(this).parents('div');
+        var title = $(this).parent('a').attr("title");
+          
+          
+        /*fix for vimeo frames */
+        var frame = "<iframe class=\"videoframe\" src=\"//player.vimeo.com/video/" + $(this).attr('id') + "?byline=0&amp;portrait=0&amp;color=ff5a60\" width=\"600\" height=\"337\"   frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>";
+
+        item.attr("title",title);
+        $(frame).appendTo(item);
+        item.appendTo('.carousel-inner'); 
+        if (i==0){ // set first item active
+         item.addClass('active');
+        }
+      }
+    });
+
+    /* activate the carousel */
+    $('#modalCarousel').carousel({interval:false});
+
+    /* change modal title when slide changes */
+    $('#modalCarousel').on('slid.bs.carousel', function () {
+      $('.modal-title').html($(this).find('.active').attr("title"));
+    })
+
+    /* when clicking a thumbnail */
+    $('.row .thumbnail').click(function(){
+        var idx = $(this).parents('div').index();
+        var id = parseInt(idx);
+        $('#myModal').modal('show'); // show the modal
+        $('#modalCarousel').carousel(id); // slide carousel to selected
+    });
 });
 
-/* activate the carousel */
-$('#modalCarousel').carousel({interval:false});
-
-/* change modal title when slide changes */
-$('#modalCarousel').on('slid.bs.carousel', function () {
-  $('.modal-title').html($(this).find('.active').attr("title"));
-})
-
-/* when clicking a thumbnail */
-$('.row .thumbnail').click(function(){
-    var idx = $(this).parents('div').index();
-  	var id = parseInt(idx);
-  	$('#myModal').modal('show'); // show the modal
-    $('#modalCarousel').carousel(id); // slide carousel to selected
-  	
-});
-
-        
-        });
-        
-        </script>
-       <!-- Yukoh! template from DJ Peluca - http://djpeluca.com is based on single-page Bootstrap template  Magister from  **Sergey Pozhilov** - http://pozhilov.com
+</script>
+       <!-- Yukoh! template from djpeluca - http://djpeluca.com is based on single-page Bootstrap template  Magister from  **Sergey Pozhilov** - http://pozhilov.com
         **Creative Commons Attribution 3.0** - http://creativecommons.org/licenses/by/3.0/ -->
 </body>
 </html>
