@@ -33,12 +33,13 @@ body {
 
 .navbar-toggle {
 	position:relative;
-	float:left;
+	float:right !important;
 	display:block;
 	padding: 9px 10px;
 	background: rgba(255, 255, 255, 0.2);
 	background-image: none;
 	border: 0 none;
+    margin-right: 0px;
 	top:0px; 
 	-webkit-border-radius: 2px;
 	   -moz-border-radius: 2px;
@@ -75,6 +76,9 @@ body {
 	box-shadow: none;
 	display:block;
 	opacity:0;
+    float: right;
+    position: relative;
+    margin-right: -42px;
 	-webkit-transition: all .45s;
 	   -moz-transition: all .45s;
 	        transition: all .45s;
@@ -82,9 +86,16 @@ body {
 .mainmenu .dropdown-menu .active { 
 	font-weight:bold;
 }
+
+.mainmenu .dropdown-menu li{
+    float: right;
+}
 .mainmenu .open .dropdown-menu { 
 	top:2px;
 	opacity:1;
+    float: right;
+    position: relative;
+    margin-right: -42px;
 }
 .mainmenu .dropdown-menu a { 
 	padding:10px 10px;
@@ -101,11 +112,33 @@ body {
 	padding:10px 8px 10px 12px;
 }
 
-.logo {
+.logo, .menu {
     width: 70%;
-    margin-left: 13%;
+    margin-top: 1%;
 }
 
+@media (max-width 640px)
+{
+    .logo, .menu {
+    width: 70% !imporant;
+    margin-top: 1%;
+    }
+}
+
+.menu .dropdown{
+   /* margin-left: 5%;*/
+}
+
+.mainmenu .container{
+    position: fixed;
+    width: 42% !important;
+}
+
+.mainmenu .menu{
+    float: right;
+    position: relative;
+    width: auto !important;
+}
 
 
 /********************************************************/
@@ -117,7 +150,7 @@ body {
 	width: 100%; 
 	overflow:auto;
 	height:100%;
-	padding-top:50px;
+	padding-top:30px;
 	padding-bottom:50px; 
 	display:none;
 	top:0;
@@ -260,14 +293,14 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 /********************************************************/
 /*                      Modal                           */
 /********************************************************/
-@media screen and (min-width: 600px){
+@media screen and (min-width: 960px){
     .modal-dialog {
-    width: 600px;
+    width: 960px;
     }
 }
 
 .modal-dialog {
-    margin: 190px auto;
+    margin: 100px auto;
 }
 .modal {
     overflow:hidden;
@@ -303,6 +336,10 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 .col-lg-3, .col-sm-4,  .col-xs-6{
   padding-right: 0px;
   padding-left:0px;
+}
+
+.container {
+    padding-left: 25px;
 }
 
 @media (min-width: 640px){

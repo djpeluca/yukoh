@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="">
-	<meta name="author"      content="DJ Peluca (djpeluca.com)">
+	<meta name="author"      content="djpeluca (djpeluca.com)">
 	
 	<title>Yukoh! Films</title>
 
@@ -16,7 +16,7 @@
 	<!-- Custom styles -->
 	<link rel="stylesheet" href="assets/css/yukoh.css">
     <?php
-    $i = rand(1, 35); // generate random number size of the array 
+    $i = rand(1, 34); // generate random number size of the array 
     ?>
     <style>
         html {
@@ -30,29 +30,28 @@
 </head>
 
 <!-- Coded by @djpeluca -->
-<body class="theme-invert">
+<body>
 
 <nav class="mainmenu">
-	<div class="container">
+    <!-- Header Logo -->
+    <div class="container logo">
+        <div class="row">
+            <img class="logo" src="assets/images/yukoh-white.png" />
+        </div>
+    </div>
+	<div class="container menu">
 		<div class="dropdown">
 			<button type="button" class="navbar-toggle" data-toggle="dropdown"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
 			<!-- <a data-toggle="dropdown" href="#">Dropdown trigger</a> -->
 			<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
 				<li><a href="#head" class="active">Videos</a></li>
 				<li><a href="#about">About me</a></li>
-				<li><a href="#themes">Themes</a></li>
-				<li><a href="#contact">Get in touch</a></li>
 			</ul>
 		</div>
 	</div>
 </nav>
 
-    <!-- Header Logo -->
-    <div class="container">
-    <div class="row">
-    <img class="logo" src="assets/images/yukoh-black.png" />
-    </div>
-    </div>
+    
 
 <!-- Main section -->
 <section class="section" id="head">
@@ -210,7 +209,7 @@ $(document).ready(function() {
           
           
         /*fix for vimeo frames */
-        var frame = "<iframe class=\"videoframe\" src=\"//player.vimeo.com/video/" + $(this).attr('id') + "?byline=0&amp;portrait=0&amp;color=ff5a60\" width=\"600\" height=\"337\"   frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>";
+        var frame = "<iframe class=\"videoframe\" src=\"//player.vimeo.com/video/" + $(this).attr('id') + "?byline=0&amp;portrait=0&amp;color=ff5a60\" width=\"960\" height=\"540\"   frameborder=\"0\" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>";
 
         item.attr("title",title);
         $(frame).appendTo(item);
