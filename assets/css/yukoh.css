@@ -9,6 +9,13 @@ html {
 	        background-size: cover;
 }
 
+@font-face {
+    font-family: 'AlteHaasGrotesk';
+    src: url('../fonts/AlteHaasGroteskRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
 	background:transparent;
 	min-height:100%; 	
@@ -16,12 +23,15 @@ body {
 	-webkit-overflow-scrolling: touch;
 	line-height: 1.5em;
 	font-size:14px;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: AlteHaasGrotesk, Helvetica, Arial, sans-serif;
 	color:#fff;
 	color:rgba(255,255,255,.8); 
 	font-weight: normal;
 }
 
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-family: AlteHaasGrotesk,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
 
 /********************************************************/
 /*                    Navigation bar                    */
@@ -39,7 +49,7 @@ body {
 	background: rgba(255, 255, 255, 0.2);
 	background-image: none;
 	border: 0 none;
-    margin-right: 0px;
+    margin-right: -5px;
 	top:0px; 
 	-webkit-border-radius: 2px;
 	   -moz-border-radius: 2px;
@@ -91,7 +101,7 @@ body {
     float: right;
 }
 .mainmenu .open .dropdown-menu { 
-	top:2px;
+	top:15px;
 	opacity:1;
     float: right;
     position: relative;
@@ -145,12 +155,13 @@ body {
 /*             Sections - universal classes             */
 /********************************************************/
 .section { 
+    font-family: AlteHaasGrotesk,'Wire One', Helvetica, Arial, sans-serif;
 	z-index: 1;
 	min-height:420px;
 	width: 100%; 
 	overflow:auto;
 	height:100%;
-	padding-top:30px;
+	padding-top:5%;
 	padding-bottom:50px; 
 	display:none;
 	top:0;
@@ -178,7 +189,7 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 
 .title,
 .subtitle { 
-	font-family: 'Wire One', Helvetica, Arial, sans-serif;
+	font-family: AlteHaasGrotesk,'Wire One', Helvetica, Arial, sans-serif !important;
 	font-weight:normal;
 	font-size:7em;
 	margin-bottom:15px; 
@@ -290,12 +301,28 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 	margin:0 auto;
 }
 
+.about{
+    background-color: black;
+    opacity: 0.8;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 6px;
+    outline: 0;
+    margin-left: 60px;
+    margin-right: 60px;
+    
+}
+
 /********************************************************/
 /*                      Modal                           */
 /********************************************************/
 @media screen and (min-width: 960px){
     .modal-dialog {
     width: 960px;
+    }
+}
+@media screen and (max-width: 959px){
+    .modal-dialog {
+    width: auto;
     }
 }
 
@@ -322,10 +349,9 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
     background-color: transparent;
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 960px){
     .videoframe{
     width: 99%;
-    height: 99%;
     }
 }
 
@@ -339,23 +365,27 @@ a:hover, a:active { color:#fff; text-decoration: underline; }
 }
 
 .container {
-    padding-left: 25px;
+    padding-left: 26px;
 }
 
 @media (min-width: 640px){
     .col-lg-3{
         width: 33%;
-    }
+    }  
+}
     .container {
     width: auto !important; 
 }
 
-@media (min-width: 960px){
-    .row {
-    margin-right: 50px;
-    margin-left: 50px;
+@media (max-width: 640px){
+    .container {
+        padding-left: 23px;
+        padding-right: 21px;
     }
 }
+
+
+
 
 
 /***********************************************************/

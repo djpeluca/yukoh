@@ -3,12 +3,16 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author"      content="djpeluca (djpeluca.com)">
+	<meta name="description" content="Hello, we are yukohfilms® An indie film factory based in Montevideo, Uruguay. We are a young independent film factory of visual arts which manifests itself through fresh film products ready for any format and media.">
+    <meta name="Keywords" content="yukohfilms, indie, film factory, montevideo, uruguay, independent, film products">
+	<meta name="author"      content="djpeluca (djpeluca.com)">	
+    <meta property="og:title" content="Yukoh! Films">
+    <meta property="og:url" content="http://www.yukohfilms.com">
+    <meta property="og:image" content="http://www.yukohfilms.com/assets/images/yukohfilms.jpg">
 	
-	<title>Yukoh! Films</title>
+    <title>Yukoh! Films</title>
 
-	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
+	<link rel="shortcut icon" href="assets/images/favicon.ico">
 	
 	<!-- Bootstrap -->
 	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -16,7 +20,7 @@
 	<!-- Custom styles -->
 	<link rel="stylesheet" href="assets/css/yukoh.css">
     <?php
-    $i = rand(1, 34); // generate random number size of the array 
+    $i = rand(1, 32); // generate random number size of the array 
     ?>
     <style>
         html {
@@ -45,13 +49,11 @@
 			<!-- <a data-toggle="dropdown" href="#">Dropdown trigger</a> -->
 			<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
 				<li><a href="#head" class="active">Videos</a></li>
-				<li><a href="#about">About me</a></li>
+				<li><a href="#about">About us</a></li>
 			</ul>
 		</div>
 	</div>
 </nav>
-
-    
 
 <!-- Main section -->
 <section class="section" id="head">
@@ -59,11 +61,11 @@
 		<div class="row">
 			<div class="col-lg-3 col-sm-4 col-xs-6"><a class="videothumb" title="Image 1" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/104191747.jpg" id="104191747" title="yukoh! films"></a></div>
 			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="yukoh! films" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/11168959.jpg" id="11168959" title="yukoh! films"></a></div>
-			<div class="col-lg-3 col-sm-4 col-xs-6" ><a title="yukoh! films" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/78796323.jpg" id="78796323" title="yukoh! films"></a></div>
+			<div class="col-lg-3 col-sm-4 col-xs-6" ><a title="yukoh! films" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/103864773.jpg" id="103864773" title="yukoh! films"></a></div>
 			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="yukoh! films" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/28521836.jpg" id="28521836" title="yukoh! films"></a></div>
-			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="yukoh! films" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/22158107.jpg" id="22158107" title="yukoh! films"></a></div>
+			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="yukoh! films" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/35299491.jpg" id="35299491" title="yukoh! films"></a></div>
 			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="yukoh! films" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/36234305.jpg" id="36234305" title="yukoh! films"></a></div>
-			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="yukoh! films" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/42131596.jpg" id="42131596" title="yukoh! films"></a></div>
+			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="yukoh! films" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/21925430.jpg" id="21925430" title="yukoh! films"></a></div>
 			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="yukoh! films" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/42674191.jpg" id="42674191" title="yukoh! films"></a></div>
 			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="yukoh! films" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/48704395.jpg" id="48704395" title="yukoh! films"></a></div>
 			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="yukoh! films" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/49933877.jpg" id="49933877" title="yukoh! films"></a></div>
@@ -90,102 +92,27 @@
 
 <!-- Second (About) section -->
 <section class="section" id="about">
-	<div class="container">
+	<div class="container about">
 	
-		<h2 class="text-center title">About me</h2>
+		<h2 class="text-center title">About Us</h2>
 		<div class="row">
 			<div class="col-sm-4 col-sm-offset-2">    
-				<h5><strong>Where's my lorem ipsum?<br></strong></h5>
-				<p>Well, here it is: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, ullam, ducimus, eaque, ex autem est dolore illo similique quasi unde sint rerum magnam quod amet iste dolorem ad laudantium molestias enim quibusdam inventore totam fugit eum iusto ratione alias deleniti suscipit modi quis nostrum veniam fugiat debitis officiis impedit ipsum natus ipsa. Doloremque, id, at, corporis, libero laborum architecto mollitia molestiae maxime aut deserunt sed perspiciatis quibusdam praesentium consectetur in sint impedit voluptates! Deleniti, sequi voluptate recusandae facere nostrum?</p>    
+				<h5><strong>Hello, we are yukohfilms®<br></strong></h5>
+				<p>An indie film factory based in Montevideo, Uruguay. We are a young independent film factory of visual arts which manifests itself
+through fresh film products ready for any format and media.We make projects with great artistic freedom that allow us to express our creativity
+through high-level audiovisual product craftsmanship.</p> 
+                <h5><strong>contact mail<br></strong></h5>    
+				<p><a  href=mailto:contact@yukohfilms.com>contact@yukohfilms.com</a> </p>
 			</div>
 			<div class="col-sm-4">
-				<h5><strong>More, more lipsum!<br></strong></h5>    
-				<p>Tempore, eos, voluptatem minus commodi error aut eaque neque consequuntur optio nesciunt quod quibusdam. Ipsum, voluptatibus, totam, modi perspiciatis repudiandae odio ad possimus molestias culpa optio eaque itaque dicta quod cupiditate reiciendis illo illum aspernatur ducimus praesentium quae porro alias repellat quasi cum fugiat accusamus molestiae exercitationem amet fugit sint eligendi omnis adipisci corrupti. Aspernatur.</p>    
-				<h5><strong>Author links<br></strong></h5>    
-				<p><a href="http://be.net/pozhilov9409">Behance</a> / <a href="https://twitter.com/serggg">Twitter</a> / <a href="http://linkedin.com/pozhilov">LinkedIn</a> / <a href="https://www.facebook.com/pozhilov">Facebook</a></p>
+				<h5><strong>Hola, somos yukohfilms®<br></strong></h5>    
+				<p>Una fábrica de cine independiente con sede en Montevideo , Uruguay . Somos una empresa joven de artes visuales que se manifiesta a través de producciones de películas frescas listas para cualquier formato y medio. Hacemos proyectos con gran libertad artística que nos permiten expresar nuestra creatividad a través de altos niveles de artesan&iacute;a.</p>    
+				<h5><strong>links<br></strong></h5>    
+				<p><a rel="nofollow" target="_blank" href="http://vimeo.com/yukoh">Vimeo</a> / <a rel="nofollow" target="_blank" href="https://twitter.com/maxcontenti">Twitter</a> / <a rel="nofollow" target="_blank" href="https://www.facebook.com/pages/yukoh-films/523735727651861">Facebook</a></p>
 			</div>
 		</div>
 	</div>
 </section>
-
-<!-- Third (Works) section -->
-<section class="section" id="themes">
-	<div class="container">
-	
-		<h2 class="text-center title">More Themes</h2>
-		<p class="lead text-center">
-			Huge thank you to all people who publish<br>
-			their photos at <a href="http://unsplash.com">Unsplash</a>, thank you guys!
-		</p>
-		<div class="row">
-			<div class="col-sm-4 col-sm-offset-2">
-				<div class="thumbnail">
-					<img src="assets/screenshots/sshot1.jpg" alt="">
-					<div class="caption">
-						<h3>Thumbnail label</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam cupiditate eius at explicabo eaque facere iste.</p>
-						<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="thumbnail">
-					<img src="assets/screenshots/sshot4.jpg" alt="">
-					<div class="caption">
-						<h3>Thumbnail label</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam cupiditate eius at explicabo eaque facere iste.</p>
-						<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-4 col-sm-offset-2">
-				<div class="thumbnail">
-					<img src="assets/screenshots/sshot5.jpg" alt="">
-					<div class="caption">
-						<h3>Thumbnail label</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam cupiditate eius at explicabo eaque facere iste.</p>
-						<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="thumbnail">
-					<img src="assets/screenshots/sshot3.jpg" alt="">
-					<div class="caption">
-						<h3>Thumbnail label</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque doloribus enim vitae nam cupiditate eius at explicabo eaque facere iste.</p>
-						<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-					</div>
-				</div>
-			</div>
-
-		</div>
-
-	</div>
-</section>
-
-<!-- Fourth (Contact) section -->
-<section class="section" id="contact">
-	<div class="container">
-	
-		<h2 class="text-center title">Get in touch</h2>
-
-		<div class="row">
-			<div class="col-sm-8 col-sm-offset-2 text-center">
-				<p class="lead">Have a question about this template, or want to suggest a new feature?</p>
-				<p>Feel free to email me, or drop me a line in Twitter!</p>
-				<p><b>gt@gettemplate.com</b><br><br></p>
-				<ul class="list-inline list-social">
-					<li><a href="https://twitter.com/serggg" class="btn btn-link"><i class="fa fa-twitter fa-fw"></i> Twitter</a></li>
-					<li><a href="https://github.com/pozhilov" class="btn btn-link"><i class="fa fa-github fa-fw"></i> Github</a></li>
-					<li><a href="http://linkedin/in/pozhilov" class="btn btn-link"><i class="fa fa-linkedin fa-fw"></i> LinkedIn</a></li>
-				</ul>
-			</div>
-		</div>
-
-	</div>
-</section>
-
 
 <!-- Load js libs only when the page is loaded. -->
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
