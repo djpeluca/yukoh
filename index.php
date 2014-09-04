@@ -6,11 +6,11 @@
 	<meta name="description" content="Hello, we are yukohfilms® An indie film factory based in Montevideo, Uruguay. We are a young independent film factory of visual arts which manifests itself through fresh film products ready for any format and media.">
     <meta name="Keywords" content="yukohfilms, indie, film factory, montevideo, uruguay, independent, film products">
 	<meta name="author"      content="djpeluca (djpeluca.com)">	
-    <meta property="og:title" content="Yukoh! Films">
+    <meta property="og:title" content="Yukoh Films">
     <meta property="og:url" content="http://www.yukohfilms.com">
     <meta property="og:image" content="http://www.yukohfilms.com/assets/images/yukohfilms.jpg">
 	
-    <title>Yukoh! Films</title>
+    <title>Yukoh Films</title>
 
 	<link rel="shortcut icon" href="assets/images/favicon.ico">
 	
@@ -20,7 +20,7 @@
 	<!-- Custom styles -->
 	<link rel="stylesheet" href="assets/css/yukoh.css">
     <?php
-    $i = rand(1, 32); // generate random number size of the array 
+    $i = rand(1, 28); // generate random number size of the array 
     ?>
     <style>
         html {
@@ -44,12 +44,13 @@
         </div>
     </div>
 	<div class="container menu">
-		<div class="dropdown">
-			<button type="button" class="navbar-toggle" data-toggle="dropdown"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+		<div class="dropdown open">
+
 			<!-- <a data-toggle="dropdown" href="#">Dropdown trigger</a> -->
 			<ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
-				<li><a href="#head" class="active">Videos</a></li>
-				<li><a href="#about">About us</a></li>
+				<li><a href="#head" class="active">works</a></li>
+				<li><a href="#about">about</a></li>
+                <li><a href="#contact">contact</a></li>
 			</ul>
 		</div>
 	</div>
@@ -73,6 +74,7 @@
 			<div class="col-lg-3 col-sm-4 col-xs-6"><a title="yukoh! films" href="#"><img class="thumbnail img-responsive" src="assets/images/videos/25051839.jpg" id="25051839" title="yukoh! films"></a></div>
 		</div> <!-- /row -->
 	</div>
+    <p class="copyright">® Yukoh Films / contact@yukohfilms.com</p>
 	
 	<div class="modal" id="myModal" role="dialog">
 		  <div class="modal-dialog">
@@ -94,20 +96,41 @@
 <section class="section" id="about">
 	<div class="container about">
 	
-		<h2 class="text-center title">About Us</h2>
+		<h2 class="text-center title">about</h2>
 		<div class="row">
 			<div class="col-sm-4 col-sm-offset-2">    
-				<h5><strong>Hello, we are yukohfilms®<br></strong></h5>
-				<p>An indie film factory based in Montevideo, Uruguay. We are a young independent film factory of visual arts which manifests itself
-through fresh film products ready for any format and media.We make projects with great artistic freedom that allow us to express our creativity
-through high-level audiovisual product craftsmanship.</p> 
-                <h5><strong>contact mail<br></strong></h5>    
-				<p><a  href=mailto:contact@yukohfilms.com>contact@yukohfilms.com</a> </p>
+				<p>These are letters. You are reading them. You are watching shapes. This is the construct of the mind. 
+                    I limit the brain imposes you to understand a creation of itself. You are witnessing a fucking lie. The Truth isn´t taken, isn´t 
+                    given, isn´t found. It exists all around us. It´s you. It´s me. It is everything that is. We beileve in truth, and we make true
+                    work.
+                </p> 
+                <h5><strong>We are Yukoh Films</strong></h5>
 			</div>
-			<div class="col-sm-4">
-				<h5><strong>Hola, somos yukohfilms®<br></strong></h5>    
-				<p>Una fábrica de cine independiente con sede en Montevideo , Uruguay . Somos una empresa joven de artes visuales que se manifiesta a través de producciones de películas frescas listas para cualquier formato y medio. Hacemos proyectos con gran libertad artística que nos permiten expresar nuestra creatividad a través de altos niveles de artesan&iacute;a.</p>    
-				<h5><strong>links<br></strong></h5>    
+			<div class="col-sm-4">  
+				<p>Estas son letras. Las estas leyendo. Estas viendo formas. Esta es una construcción de la mente.
+Un limite que el cerebro te impone para entender su propia creación. Estas viendo una puta mentira.
+La verdad no se toma, no se da, no se encuentra.
+Existe alrededor nuestro. Eres tu. Es yo. Es todo lo que es.
+Nosotros creemos en la verdad, y hacemos trabajo verdadero.</p>    
+				<h5><strong>Somos Yukoh Films</strong></h5>    
+			</div>
+		</div>
+	</div>
+</section>
+    
+<!-- Third (Contact) section -->
+<section class="section" id="contact">
+	<div class="container about">
+	
+		<h2 class="text-center title">contact</h2>
+		<div class="row">
+			<div class="col-lg-4 contact">    
+				<h3><strong>Maximiliano Contenti - Director - Founder<br></strong></h3>
+                <h5><strong>contact phone<br></strong></h5>
+				<p>+598 091 438916</p> 
+                <h5><strong>contact mail<br></strong></h5>    
+				<p>contact@yukohfilms.com</p>
+                <h5><strong>links<br></strong></h5>    
 				<p><a rel="nofollow" target="_blank" href="http://vimeo.com/yukoh">Vimeo</a> / <a rel="nofollow" target="_blank" href="https://twitter.com/maxcontenti">Twitter</a> / <a rel="nofollow" target="_blank" href="https://www.facebook.com/pages/yukoh-films/523735727651861">Facebook</a></p>
 			</div>
 		</div>
